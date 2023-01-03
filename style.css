@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  color: #102a42;
+}
+body{
+  background: #F1F5F8;
+}
+main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.cont{
+  width: 80vw;
+  max-width: 620px;
+}
+h2{
+  font-family:  "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+.linha{
+  background: #49a6e9;
+  height: 4px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titulo{
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+#person-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.img-pre{
+  height: 150px;
+  position: relative;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.name{
+  font-size: 16px;
+  font-family:  "Roboto", sans-serif;
+  margin-bottom: 4px;
+  letter-spacing:  0.25rem;
+}
+.job{
+  font-size: 14px;
+  font-family:  "Roboto", sans-serif;
+  margin-bottom: 8px;
+  color: #49a6e9;
+  text-transform: uppercase;
+}
+.info{
+  font-size: 16px;
+  font-family:  "Roboto", sans-serif;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  color: #617d98;
+}
+.btn-prev,.btn-next{
+  color: #8bcbf9;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.left:hover,.right:hover{
+  color: #49a6e9;
+}
+
+.revisao{
+  background: white;
+  padding: 24px 32px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);;
+}
+
+.left,.right{
+  color: #8bcbf9;
+  font-weight: 900;
+}
+
+.aleatorio{
+  padding: 4px 8px;
+  margin-top: 8px;
+  color: #49a6e9;
+  background: #ebf7ff;
+  cursor: pointer;
+  border-color: #49a6e9;
+  border-radius: 0.5rem;
+  transition: all 0.3s linear;
+}
+.aleatorio:hover{
+  background: #49a6e9;
+  color: #063251;
+}
+
+.img-pre::after{
+  font-weight: 900;
+  content: "**";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background: #49a6e9;
+  color: white;
+  align-items: center;
+}
+.img-pre::before{
+  content: "";
+    width: 100%;
+    height: 100%;
+    background: #49a6e9;
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+}
