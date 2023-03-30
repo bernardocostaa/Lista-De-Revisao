@@ -1,11 +1,36 @@
-# Lista De Revisao
+<h1 align="center">
+  Jogo da Velha
+</h1>
 
-### Projeto
+<p align="center">
+  <img alt="" src="https://raw.githubusercontent.com/bernardocostaa/Jogo-da-velha/main/post.jpg" width="100%">
+</p>
 
-Foi feito um site que incrementa, decrementa e reseta uma contagem HTML5, CSS3 e JavaScript
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://bernardocostaa.github.io/Jogo-da-velha/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-### Tamplate do Projeto
+<br>
 
-<img width="150" align="center" alt="Business_PNG" target="_blank" src="https://raw.githubusercontent.com/bernardocostaa/Lista-De-Revisao/main/bg-revisao.png">
+## 🚀 Tecnologias
 
-## Acesse o Link https://bernardocostaa.github.io/Lista-De-Revisao/
+Esse projeto está sendo desenvolvido com as seguintes tecnologias:
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 🚧 Projeto:
+
+Link do Projeto: [Jogo da Velha](https://bernardocostaa.github.io/Jogo-da-velha/)
+
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Jogo-da-velha/blob/main/LICENSE) para mais detalhes.
+
+---
+
+Feito por Bernardo Costa
